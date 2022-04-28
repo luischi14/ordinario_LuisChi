@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@color/colorAccent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".OfertasActivity">
+    <ImageView
+        android:src="@drawable/cinta"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:src="@drawable/oferta"
+        android:id="@+id/oferta"
+        android:adjustViewBounds="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="GRAN OFERTA"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="30% DE DESCUENTO si te apellidas Vizcarra"
+        android:textSize="30dp"
+        android:textColor="@color/colorWhite"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Oferta dispponible todo el mes may0 de 2022"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".EmpresaActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/header"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:src="@drawable/cinta"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="EL RESTAURANT"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <View
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="La Huaca Pucllana mantiene con justificado
+orgullo una filosofía culinaria cuyo concepto fundamental radica en
+utilizar como base los sabores del Perú, interpretando de acuerdo a
+las técnicas clásicas de cocina, así como a los estilos contemporáneos
+y a las exigencias de los paladares más exquisitos. Con el calificado
+aporte de Arturo Rubio, promotor del restaurant, y de nuestras chefs
+Marilú Madueño y Andrea Massaro, el restaurant ofrece una comida
+renovada cuyo cimiento es la cocina peruana, con su riquísima variedad
+de productos, llámense pescados de mar, mariscos, o lo que forma el
+inmenso abanico de vegetales, con todos los colores, texturas y
+sabores. "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="En el siglo V de nuestra era, los habitantes
+del Valle de Lima iniciaron la construcción de la Huaca Pucllana.
+Pucllana fue, pues, un importante centro ceremonial y administrativo.
+Su grandeza está reflejada en la configuración de una arquitectura
+monumental, hecha en adobe pequeño y forjada sobre la base de
+continuos adosamientos y remodelaciones, realizados durante los tres
+siglos que tuvo vigencia."
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Arequipa, 18/11/2019."
+            android:layout_width="match_parent"
+            android:gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
